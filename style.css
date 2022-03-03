@@ -78,7 +78,7 @@ font-weight: 700;}
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 width: 100%;
-height: 100vw;
+height: 100vh;
 justify-content: center;
 margin-top: 4rem;}
 
@@ -104,9 +104,9 @@ height: 50%;}
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 width: 100%;
-height: 100vw;
+height: 100vh;
 justify-content: center;
-margin-top: 4rem;}
+margin-top: 6rem;}
 
 .texto-footer { display: grid;
     grid-column: 1/ span 2;
