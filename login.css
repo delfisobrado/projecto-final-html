@@ -1,0 +1,124 @@
+* { padding: 0%;
+    margin: 0%;
+    font-family: 'DM Sans', sans-serif;}
+
+body { width: 100%;
+    background: white;
+    background: rgb(202,78,240);
+    background: linear-gradient(180deg, rgba(202,78,240,0.3426412801448705) 0%, rgba(231,23,148,0.24180094401041663) 35%, rgba(255,0,169,0.02891578994879207) 100%);
+;}
+nav { width: 100%;
+height: 20vh;} 
+
+.logo {margin: 2rem 0 0 2rem;}
+
+span img { margin-top: 1rem;}
+.flecha {  float: right;
+    margin: 1.5rem 2rem 0 0;
+width: 15%;
+border-radius: 0.7rem;
+height: 30%;
+background-color: #7104D6;
+border: none;
+color: white;}
+
+
+
+.personalized { width: 80%;
+height: 60vh;
+margin: 0 1rem 1rem 2rem;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;}
+
+.personalized h2 { width: 100%;
+padding: 0.3rem;
+font-size: 2rem;
+margin-top: 1rem;}
+
+p { color: #2C2C2C;
+    margin: 0 1rem 1rem 1rem;}
+strong {color: black;}
+
+.form { width: 80%;
+    padding: 1rem;
+    margin: 3rem 2rem 0 2rem;
+height: 110vh;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+justify-content: center;
+border-radius: 1rem;}
+
+.form h3 { width: 100%;
+font-size: 1.3rem;
+margin-bottom: 1rem;
+margin-top: 2rem;}
+
+.form label { font-weight: bold;}
+
+input { width: 80%;
+height: 2.5rem;
+margin-bottom: 1rem;
+padding: 0.2rem;}
+ 
+.terms { display: flex;
+margin-top: 1rem;}
+.column { display: flex;
+flex-direction: column;
+width: 90%;}
+.mini { width: 10%;
+height: 20%;}
+
+a { color: #7104D6;
+    font-weight: 700;
+    cursor: grab;}
+
+button { width: 80%;
+    font-size: 1rem;
+    height: 3rem;
+    margin: 0 1rem 0rem 0.6rem;
+    background-color: #7104D6;
+    color: white;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: grab;}
+    
+    button:hover { background-color: #7104D6;
+    opacity: 0.2;}
+    
+.padding { padding: 1rem 0 0 2rem;
+display: flex;
+flex-direction: column;}
+
+.last {margin-top: 1rem;
+    margin-right: 2rem;
+font-size: 0.9rem;}
+
+
+@media screen and (min-width: 376px) {   .todo { display: flex;}
+
+.personalized { width: 60%;
+    height: 60vh;
+    margin: 4rem 1rem 1rem 2rem;}
+
+    .form { width: 80%;
+        margin: 2rem 2rem 0 2rem;
+    justify-content: center;}
+    
+    .padding h3 { font-size: 2rem;
+    margin-top: 0;}
+    
+    .padding label { margin-top: 2rem;
+        margin-bottom: 0.2rem;
+    font-size: 1.4rem;}
+    
+    .column { display: flex;
+        flex-direction: column;
+        width: 60%;}
+    
+        .last { margin-left: 7rem;
+            margin-top: 1rem;}
+  
+}
